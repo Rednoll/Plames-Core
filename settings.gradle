@@ -1,0 +1,4 @@
+rootProject.name = 'Plames-Core'
+
+include ":Plames-API"
+project(":Plames-API").projectDir = file("../Plames-API")
